@@ -18,5 +18,4 @@ print(kirmizi + """
 ┈┃┃┣┳┳┳┳┳┳┳┫┃┃┈
 ┈┃┃╰┻┻┻┻┻┻┻╯┃┃┈
 ┈╰━━━━━━━━━━━╯┈""")    
-
 print(yesil + """    # Coded By mmagneto """)
