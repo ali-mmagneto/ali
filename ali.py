@@ -8,8 +8,7 @@ os.system("clear")
 yesil = '\033[92m'
 kirmizi = '\033[91m'
 
-
-print(kirmizi + """
+print(kirmizi + "
 ┈╭━━━━━━━━━━━╮┈
 ┈┃╭━━━╮┊╭━━━╮┃┈
 ╭┫┃┈▇┈┃┊┃┈▇┈┃┣╮
@@ -17,5 +16,5 @@ print(kirmizi + """
 ╰┫╭━╮╰━━━╯╭━╮┣╯
 ┈┃┃┣┳┳┳┳┳┳┳┫┃┃┈
 ┈┃┃╰┻┻┻┻┻┻┻╯┃┃┈
-┈╰━━━━━━━━━━━╯┈""")    
+┈╰━━━━━━━━━━━╯┈")    
 print(yesil + "# Coded By mmagneto")
