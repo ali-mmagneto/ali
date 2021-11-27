@@ -18,4 +18,4 @@ print(kirmizi + """
 ┈┃┃┣┳┳┳┳┳┳┳┫┃┃┈
 ┈┃┃╰┻┻┻┻┻┻┻╯┃┃┈
 ┈╰━━━━━━━━━━━╯┈""")    
-print(yesil + "# Coded By mmagneto")
+print(yesil + "# Coded By baygoktas")
