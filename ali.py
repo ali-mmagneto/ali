@@ -1,21 +1,17 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
+import re
 
-import os 
+# Metin dosyasını aç
+file = open("Disney Plus Captureli.txt",'r')
 
-os.system("clear")
+# Dosyanın içeriğini oku
+text = file.read()
 
-yesil = '\033[92m'
-kirmizi = '\033[91m'
+# MailPass eşleştirmek için Regex
+matches = re.findall(r'(\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}\b:[^"\r\s]*)', text)
 
-print(kirmizi + """
-  乃卂ㄚᎶㄖҜㄒ卂丂
-┈╭━━━━━━━━━━━╮┈
-┈┃╭━━━╮┊╭━━━╮┃┈
-╭┫┃┈▇┈┃┊┃┈▇┈┃┣╮
-┃┃╰━━━╯┊╰━━━╯┃┃
-╰┫╭━╮╰━━━╯╭━╮┣╯
-┈┃┃┣┳┳┳┳┳┳┳┫┃┃┈
-┈┃┃╰┻┻┻┻┻┻┻╯┃┃┈
-┈╰━━━━━━━━━━━╯┈""")    
-print(yesil + "# Coded By baygoktas")
+# Çıktı dosyasına yaz
+file2 = open('output.txt','w+')
+
+# Eşleştir ve göm
+for i in matches:
+    file2.write(i + '\n')
